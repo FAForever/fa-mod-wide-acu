@@ -20,8 +20,6 @@
   
 </div>
 
----
-
 # 'Wide ACU' Seasonal Event
 
 <img src="banner.png" />
