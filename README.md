@@ -28,8 +28,7 @@ This repository contains all assets for the 'Wide ACU' Seasonal event on the 1st
 
 ## Related repositories
 
-### Campaign or co-op content
-
+- [FAForever game modes](https://github.com/FAForever/fa)
 - [Campaign/co-op featured mod](https://github.com/FAForever/fa-coop)
 - [Campaign/co-op maps](https://github.com/FAForever/faf-coop-maps)
 
