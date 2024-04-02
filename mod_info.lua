@@ -1,8 +1,9 @@
 name = "Wide ACU"
 version = 1
 author = "Deribus"
-description = "Reproduces the 'wide ACU' seasonal event used by the 1st aprils fools prank of 2024"
+description = "Reproduces the 'wide ACU' seasonal event used by the 1st aprils fools prank of 2024. Only compatible with FAForever."
 uid = "wide-acu-01"
+icon = "/mods/fa-wide-acu/icon.png"
 selectable = true
 enabled = true
 exclusive = false
