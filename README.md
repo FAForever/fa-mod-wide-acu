@@ -24,6 +24,8 @@
 
 # 'Wide ACU' Seasonal Event
 
+<img src="banner.png" />
+
 This repository contains all assets for the 'Wide ACU' Seasonal event on the 1st of April of 2024. The repository is a template that you can use to create your own mods. For additional resources and assistance you can visit the Discord server that is linked above. It has an extensive channel with resources called [Modification Resources](https://discord.gg/eQZRwhAP) that lists all the resources you may need on your modding journey!
 
 ## Related repositories
