@@ -28,7 +28,7 @@ URL0001 = ClassUnit(URL0001) {
         oldURL0001.AddVetLevel(self)
 
         -- replace the mesh
-        local temp = string.format('/mods/fa-wide-acu/meshes/cybran/Cybran%d_mesh', self.VetLevel)
+        local temp = string.format('/mods/fa-mod-wide-acu/meshes/cybran/Cybran%d_mesh', self.VetLevel)
         self:SetMesh(temp, true)
     end
 }

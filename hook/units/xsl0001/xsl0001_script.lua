@@ -28,7 +28,7 @@ XSL0001 = ClassUnit(XSL0001) {
         oldXSL0001.AddVetLevel(self)
 
         -- replace the mesh
-        local temp = string.format('/mods/fa-wide-acu/meshes/seraphim/Sera%d_mesh', self.VetLevel)
+        local temp = string.format('/mods/fa-mod-wide-acu/meshes/seraphim/Sera%d_mesh', self.VetLevel)
         self:SetMesh(temp, true)
     end
 }

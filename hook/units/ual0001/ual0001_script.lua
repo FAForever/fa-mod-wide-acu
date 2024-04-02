@@ -28,7 +28,7 @@ UAL0001 = ClassUnit(UAL0001) {
         oldUAL0001.AddVetLevel(self)
 
         -- replace the mesh
-        local temp = string.format('/mods/fa-wide-acu/meshes/aeon/Aeon%d_mesh', self.VetLevel)
+        local temp = string.format('/mods/fa-mod-wide-acu/meshes/aeon/Aeon%d_mesh', self.VetLevel)
         self:SetMesh(temp, true)
     end
 }
