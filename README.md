@@ -3,8 +3,6 @@
 <img width="200px" height="200px" src="thumbnail.svg"/>
 
 ---
-
-<div align='center'>
   
 ### Quick Links
   
