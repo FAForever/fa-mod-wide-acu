@@ -1,0 +1,10 @@
+name = "Wide ACU"
+version = 1
+author = "Deribus"
+description = "Reproduces the 'wide ACU' seasonal event used by the 1st aprils fools prank of 2024"
+uid = "wide-acu-01"
+selectable = true
+enabled = true
+exclusive = false
+ui_only = false
+conflicts = { }
