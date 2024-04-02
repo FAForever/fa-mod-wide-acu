@@ -1,4 +1,4 @@
-name = "Wide ACU"
+name = "W I D E ACUs"
 version = 1
 author = "Deribus"
 description = "Reproduces the 'wide ACU' seasonal event used by the 1st aprils fools prank of 2024. Only compatible with FAForever."
