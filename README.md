@@ -24,7 +24,7 @@
 
 <img src="banner.png" />
 
-This repository contains all assets for the 'Wide ACU' Seasonal event on the 1st of April of 2024. The repository is a template that you can use to create your own mods. For additional resources and assistance you can visit the Discord server that is linked above. It has an extensive channel with resources called [Modification Resources](https://discord.gg/eQZRwhAP) that lists all the resources you may need on your modding journey!
+This repository contains all assets for the ['Wide ACU' Seasonal Event](https://github.com/FAForever/fa/pull/5974) on the 1st of April of 2024. The repository is a template that you can use to create your own mods. For additional resources and assistance you can visit the Discord server that is linked above. It has an extensive channel with resources called [Modification Resources](https://discord.gg/eQZRwhAP) that lists all the resources you may need on your modding journey!
 
 ## Related repositories
 
@@ -34,11 +34,5 @@ This repository contains all assets for the 'Wide ACU' Seasonal event on the 1st
 
 ### Lua plugin
 
- - [FA Lua intellisense extension](https://github.com/FAForever/fa-lua-vscode-extension)
- - [FA Lua intellisense language server](https://github.com/FAForever/fa-lua-language-server)
-
-### Assembly patches
-
- - [Executable patcher](https://github.com/FAForever/FA_Patcher)
- - [Executable patches](https://github.com/FAForever/FA-Binary-Patches)
- - [Exception debugger](https://github.com/FAForever/FADeepProbe)
+- [FA Lua intellisense extension](https://github.com/FAForever/fa-lua-vscode-extension)
+- [FA Lua intellisense language server](https://github.com/FAForever/fa-lua-language-server)
