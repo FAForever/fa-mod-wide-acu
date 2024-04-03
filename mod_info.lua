@@ -1,7 +1,9 @@
-name = "Nyan Cat"
+name = "W I D E ACU"
 version = 1
 author = "Deribus"
-description = "Reproduces the Nyan Cat' seasonal event used by the 1st aprils fools prank of 2024. Only compatible with FAForever."
+description = "Reproduces the 'W I D E ACU' seasonal event used by the 1st aprils fools prank of 2024. Only compatible with FAForever."
+copyright = "MIT"
+url = "https://github.com/FAForever/fa-mod-wide-acu"
 uid = "nyan-cat-01"
 icon = "/mods/fa-mod-nyan-cat/icon.png"
 selectable = true
