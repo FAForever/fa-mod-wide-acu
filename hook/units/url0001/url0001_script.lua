@@ -20,17 +20,19 @@
 --** SOFTWARE.
 --******************************************************************************************************
 
-local oldURL0001 = URL0001
-URL0001 = ClassUnit(URL0001) {
-    --- Called when the unit gains a level of veterancy
-    ---@param self Unit | VeterancyComponent
-    AddVetLevel = function(self)
-        oldURL0001.AddVetLevel(self)
+do
+    local oldURL0001 = URL0001
+    URL0001 = ClassUnit(URL0001) {
+        --- Called when the unit gains a level of veterancy
+        ---@param self Unit | VeterancyComponent
+        AddVetLevel = function(self)
+            oldURL0001.AddVetLevel(self)
 
-        -- replace the mesh
-        local temp = string.format('/mods/fa-mod-wide-acu/meshes/cybran/Cybran%d_mesh', self.VetLevel)
-        self:SetMesh(temp, true)
-    end
-}
+            -- replace the mesh
+            local temp = string.format('/mods/fa-mod-wide-acu/meshes/cybran/Cybran%d_mesh', self.VetLevel)
+            self:SetMesh(temp, true)
+        end
+    }
 
-TypeClass = URL0001
+    TypeClass = URL0001
+end

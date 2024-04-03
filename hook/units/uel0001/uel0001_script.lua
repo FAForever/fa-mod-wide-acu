@@ -20,17 +20,19 @@
 --** SOFTWARE.
 --******************************************************************************************************
 
-local oldUEL0001 = UEL0001
-UEL0001 = ClassUnit(UEL0001) {
-    --- Called when the unit gains a level of veterancy
-    ---@param self Unit | VeterancyComponent
-    AddVetLevel = function(self)
-        oldUEL0001.AddVetLevel(self)
+do
+    local oldUEL0001 = UEL0001
+    UEL0001 = ClassUnit(UEL0001) {
+        --- Called when the unit gains a level of veterancy
+        ---@param self Unit | VeterancyComponent
+        AddVetLevel = function(self)
+            oldUEL0001.AddVetLevel(self)
 
-        -- replace the mesh
-        local temp = string.format('/mods/fa-mod-wide-acu/meshes/uef/UEF%d_mesh', self.VetLevel)
-        self:SetMesh(temp, true)
-    end
-}
+            -- replace the mesh
+            local temp = string.format('/mods/fa-mod-wide-acu/meshes/uef/UEF%d_mesh', self.VetLevel)
+            self:SetMesh(temp, true)
+        end
+    }
 
-TypeClass = UEL0001
+    TypeClass = UEL0001
+end

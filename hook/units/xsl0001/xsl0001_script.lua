@@ -20,17 +20,19 @@
 --** SOFTWARE.
 --******************************************************************************************************
 
-local oldXSL0001 = XSL0001
-XSL0001 = ClassUnit(XSL0001) {
-    --- Adds a single level of veterancy
-    ---@param self Unit | VeterancyComponent
-    AddVetLevel = function(self)
-        oldXSL0001.AddVetLevel(self)
+do
+    local oldXSL0001 = XSL0001
+    XSL0001 = ClassUnit(XSL0001) {
+        --- Adds a single level of veterancy
+        ---@param self Unit | VeterancyComponent
+        AddVetLevel = function(self)
+            oldXSL0001.AddVetLevel(self)
 
-        -- replace the mesh
-        local temp = string.format('/mods/fa-mod-wide-acu/meshes/seraphim/Sera%d_mesh', self.VetLevel)
-        self:SetMesh(temp, true)
-    end
-}
+            -- replace the mesh
+            local temp = string.format('/mods/fa-mod-wide-acu/meshes/seraphim/Sera%d_mesh', self.VetLevel)
+            self:SetMesh(temp, true)
+        end
+    }
 
-TypeClass = XSL0001
+    TypeClass = XSL0001
+end
